@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    width: 10px;
+    height: 10px;
+    animation-name: myanime;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(-4px);
+    display: inline-flex;
+}
+
+@keyframes myanime {
+    from {
+        opacity: 1;
+        color: red;
+        }
+
+    to {
+        opacity: 0;
+        color: blue;
+    }
+}
